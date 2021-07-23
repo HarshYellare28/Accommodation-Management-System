@@ -48,14 +48,14 @@ end.
 (d) Write a search() function that prints the whole information for a given Employee name. If
 there are multiple records with same name then print them in alphabetic order.
 
-(f) Write a function deleteRecord() to delete the record of a given employee, the input to this
+(e) Write a function deleteRecord() to delete the record of a given employee, the input to this
 function should be idtype and idnum. Make sure to change the index tree after deletion.
 
-(g) Write the updateRecord() function to update the record of an employee. The field to
+(f) Write the updateRecord() function to update the record of an employee. The field to
 update should be the user input. Make sure to change the index tree after updating
 firstname or lastname.
 
-(h) Create an additional structure having 10 blocks of each type of accommodation. The
+(g) Create an additional structure having 10 blocks of each type of accommodation. The
 types of accommodation are type-A, type-B, type-C, and type-D. These blocks should be
 addressed with type, followed by serial number. For example, blocks in type-A will be
 named as A1, A2, A3, A4, … & so on for other blocks also.Mark the blocks as
