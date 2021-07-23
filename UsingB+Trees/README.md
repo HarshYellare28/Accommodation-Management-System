@@ -45,15 +45,7 @@ have provided Aadhar number are listed first, all those who have provided Passpo
 number are listed next, and all those who have provided Employee code are listed at the
 end.
 
-(d) We wish to print the records in tree in alphabetic order of names (sorted by firstname and
-ties resolved by lastname). Instead of sorting the records in tree, we will create a thing
-called index. For this purpose, create a tree, index, of N nodes, and then for each k, 0 ≤ k
-< N, populate kth node with the index of the record containing the kth name in alphabetic
-order. The order of nodes can be considered as top to bottom and left to right. Write a
-function printSortedRecords() that uses the index tree, to print the records in alphabetic
-order of names.
-
-(e) Write a search() function that prints the whole information for a given Employee name. If
+(d) Write a search() function that prints the whole information for a given Employee name. If
 there are multiple records with same name then print them in alphabetic order.
 
 (f) Write a function deleteRecord() to delete the record of a given employee, the input to this
